@@ -1,0 +1,190 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color:white;
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color:green;
+}
+
+.Title{
+  background-color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+header {
+  background-image: url(dd/Definless_logo.png);
+
+  padding: 20px;
+  color: #fff;
+}
+
+.background{
+  background-color: #12120F;
+}
+
+header a img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 40px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #ffae00;
+}
+
+.header-text {
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+.header-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-text p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.header-text a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ffae00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.header-text a:hover {
+  background-color: #ffa500;
+}
+
+/* Services styles */
+.services {
+  padding: 80px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.services h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.service {
+  margin-bottom: 60px;
+  flex:1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.service img {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.service p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.service a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ffae00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.service a:hover {
+  background-color: #ffa500;
+}
+
+/* Beats styles */
+.beats {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.beats h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.beat {
+  display: inline-block;
+  margin: 0 20px;
+  margin-bottom: 60px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.beat img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.beat h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10
+}
